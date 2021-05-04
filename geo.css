@@ -37,7 +37,7 @@ background:none;
 }
 .navbar ul li a{
     text-decoration: none;
-    color: tomato;
+    color: grey;
     text-transform: uppercase;
 }
 .navbar ul li::after{
@@ -59,7 +59,7 @@ background:none;
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: #f9fed3;
+    color: #b2c1b0;
 }
 .content h1{
     font-size: 90px;
@@ -79,7 +79,7 @@ button{
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #002344;
+    /* border: 2px solid #002344; */
     background: transparent;
     color: tomato;
     cursor: pointer;
@@ -93,7 +93,7 @@ form{
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #002344;
+    border: none;
     background: transparent;
     color: tomato;
     cursor: pointer;
@@ -123,7 +123,7 @@ button:hover{
 
 
 #wrapper {
-width: 960px;
+width: auto;
 margin-left: auto;
 margin-right: auto;
 }
@@ -142,5 +142,27 @@ margin-right: auto;
     opacity: 20%;
   }
   
+  a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
   
+  a:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #b2c1b0;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #e1e2cf;
+    background-color: transparent;
+    text-decoration: underline;
+  }
  
